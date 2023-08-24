@@ -176,6 +176,12 @@ body {
 	/* position:relative; */
 	
 }
+.hard>ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
 .skills>h2{
 	font-size: 2.875rem;
 	margin-bottom: 1.5rem;
