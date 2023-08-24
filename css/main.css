@@ -180,7 +180,8 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	
+
+
 }
 .skills>h2{
 	font-size: 2.875rem;
@@ -320,3 +321,15 @@ transition:  .5s;
 }
 
 	
+@media screen and (max-width: 768px) {
+	.hero-content {
+		font-size: calc(var(--index) * 1.5);
+	}
+	.hero-content h1 {
+		font-size: 3rem;
+	}
+	.hero-content span {
+		font-size: 20px;
+	}
+	
+}
