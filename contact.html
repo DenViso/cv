@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/app.js" defer></script>
+  <script src="libs/rain.js" defer></script>
+</head>
+
+<body>
+
+
+
+  <section class="layers">
+
+    <div class="layers__container">
+      <div class="layers__item layer-1" style="background-image: url(img/layer-1.jpg);"></div>
+      <div class="layers__item layer-2" style="background-image: url(img/layer-2.png);"></div>
+
+      <div class="layers__item layer-3">
+        <div class="header-link">
+          <!-- <a href="./libs/about.html">About me</a> -->
+          <a  href="./skills.html">My skills</a>
+          <a href="./work.html">My Progect</a>
+          <a class="active" href="./contact.html">Contact me</a>
+        </div>
+
+        <div class="contact">
+          <h2 class="section-title">Contact Me</h2>
+          <ul>
+            <!-- GIT -->
+            <li class="g">
+              <a href="https://github.com/DenViso?tab=repositories" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"
+                  stroke-width="2" class="ai ai-GithubFill">
+                  <g clip-path="url(#clip0_100_4)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_100_4">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <!-- EMAIL -->
+            <li class="e">
+              <a href="mailto:itdeniro00@gmail.com" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="ai ai-Envelope">
+                  <path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6z" />
+                  <path d="M2 8l7.501 6.001a4 4 0 0 0 4.998 0L22 8" />
+                </svg>
+              </a>
+            </li>
+            <!-- PHONE -->
+            <li class="p">
+              <a href="tel:+380634545828" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="ai ai-Phone">
+                  <path
+                    d="M10.554 6.24L7.171 2.335c-.39-.45-1.105-.448-1.558.006L2.831 5.128c-.828.829-1.065 2.06-.586 3.047a29.207 29.207 0 0 0 13.561 13.58c.986.479 2.216.242 3.044-.587l2.808-2.813c.455-.455.456-1.174.002-1.564l-3.92-3.365c-.41-.352-1.047-.306-1.458.106l-1.364 1.366a.462.462 0 0 1-.553.088 14.557 14.557 0 0 1-5.36-5.367.463.463 0 0 1 .088-.554l1.36-1.361c.412-.414.457-1.054.101-1.465z" />
+                </svg>
+              </a>
+            </li>
+            <!-- LINKEDIN -->
+            <li class="l">
+              <a href="https://www.linkedin.com/in/%D0%B4%D0%B5%D0%BD-%D0%B4%D0%B5%D0%BD-021a67258/
+        " target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"
+                  stroke-width="2" class="ai ai-LinkedinBoxFill">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634 3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388zm-5.5 10.403h3.208V9.25H4.208v10.54zM7.875 5.812a2.063 2.063 0 1 1-4.125 0 2.063 2.063 0 0 1 4.125 0z" />
+                </svg>
+              </a>
+            </li>
+            <!-- FACEBOOK -->
+            <li class="f">
+              <a href="https://www.facebook.com/profile.php?id=100000773763615
+        " target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"
+                  stroke-width="2" class="ai ai-FacebookFill">
+                  <g clip-path="url(#clip0_65_70)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0 12.067C0 18.033 4.333 22.994 10 24v-8.667H7V12h3V9.333c0-3 1.933-4.666 4.667-4.666.866 0 1.8.133 2.666.266V8H15.8c-1.467 0-1.8.733-1.8 1.667V12h3.2l-.533 3.333H14V24c5.667-1.006 10-5.966 10-11.933C24 5.43 18.6 0 12 0S0 5.43 0 12.067z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_65_70">
+                      <rect width="24" height="24" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <!-- <li class="link">cv-denysvisotsky.netlify.app</li>
+   -->
+          </ul>
+        </div>
+
+        <div class="button">
+          <a href="./index.html">Back to main</a>
+        </div>
+      </div>
+
+
+
+      <div class="layers__item layer-4">
+        <canvas class="rain"></canvas>
+      </div>
+      <div class="layers__item layer-5" style="background-image: url(img/layer-5.png);"></div>
+      <div class="layers__item layer-6" style="background-image: url(img/layer-6.png);"></div>
+    </div>
+  </section>
+
+</body>
+
+</html>
